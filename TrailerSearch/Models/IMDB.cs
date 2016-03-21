@@ -69,7 +69,7 @@ namespace TrailerSearch.Models
         }
 
     /// <summary>
-    /// Parse Imdb Response
+    /// Parse Imdb Response. 
     /// </summary>
     /// <param name="imdbUrl"></param>
         private void ParseImdbResponse(string imdbUrl)
