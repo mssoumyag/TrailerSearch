@@ -17,12 +17,12 @@ namespace TrailerSearch.Controllers
         {
             return View();
         }
-        //Invokes GetTrailers View
+        //Invokes GetTrailers View.
         public ActionResult GetTrailers()
         {
             return View();
         }
-        //Invokes DisplayTrailers View
+        //Invokes DisplayTrailers View.
         public ActionResult DisplayTrailers()
         {            
             IMDB imdb=null;
