@@ -12,6 +12,7 @@ Running the application:
 3. Running this application using a port other than 8080 would need an update in DisplayTrailers.aspx for correct redirection. 
 
 Things not implemented
-1. MVC redirection for default landing page and redirection
-2. Cache enablement for better performance results. 
-3. As of now results are purely based on IMDB search results only. 
+1. IMDB does not seem to have a free consistant API. Hence the approach was to parse response of IMDB web search link.  
+2. MVC redirection strategy to be done. 
+3. Cache enablement for better performance results. 
+4. As of now results are purely based on IMDB search results only. Further enhancements could be to add Youtube etc and create an internal API to supply date.	
