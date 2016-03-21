@@ -12,7 +12,7 @@
     <br /><br>
     <div>
 
-       <%=Model.S %>
+       <%=Model.urlEmbededHTML %>
     </div>
 </body>
 </html>
