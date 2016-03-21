@@ -11,6 +11,9 @@ using System.Web;
 ///
 namespace TrailerSearch.Models
 {
+    /// <summary>
+    /// IMDB Wrapper class.
+    /// </summary>
     public class IMDB
     {
                
