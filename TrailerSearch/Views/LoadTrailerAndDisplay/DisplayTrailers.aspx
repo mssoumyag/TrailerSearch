@@ -7,8 +7,8 @@
     <meta name="viewport" content="width=device-width" />
     <title>DisplayTrailers</title>
 </head>
-<body>
-    <input type ="button" name ="home" value="Search For Another Movie" onclick="parent.location = 'http://localhost:8080/LoadTrailerAndDisplay/GetTrailers'" />
+<body>    
+    <input type="button" name ="home" value="Search For Another Movie" onclick=" window.location.href = 'GetTrailers' " />  
     <br /><br>
     <div>
 

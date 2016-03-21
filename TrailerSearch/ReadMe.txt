@@ -7,12 +7,9 @@ Not to be used for commercial purposes.
 I have made use of many educational sites retrieved via Google search. 
 
 Running the application: 
-1. Port to be used is 8080. 
-2. Landing page link is http://localhost:8080/LoadTrailerAndDisplay/GetTrailers
-3. Running this application using a port other than 8080 would need an update in DisplayTrailers.aspx for correct redirection. 
+Landing page link is http://localhost:8080/LoadTrailerAndDisplay/GetTrailers
 
 Things not implemented as of now, but planning to add: 
 1. IMDB does not seem to have a free consistant API. Hence the approach was to parse response of IMDB web search link.  
-2. MVC redirection strategy to be done. 
-3. Cache enablement for better performance results. 
-4. As of now results are purely based on IMDB search results only. Further enhancements could be to add Youtube etc and create an internal API to supply date.	
+2. Cache enablement for better performance results. 
+3. As of now results are purely based on IMDB search results only. Further enhancements could be to add Youtube etc and create an internal API to supply date.	
