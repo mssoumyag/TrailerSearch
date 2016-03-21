@@ -11,7 +11,7 @@ Running the application:
 2. Landing page link is http://localhost:8080/LoadTrailerAndDisplay/GetTrailers
 3. Running this application using a port other than 8080 would need an update in DisplayTrailers.aspx for correct redirection. 
 
-Things not implemented
+Things not implemented as of now, but planning to add: 
 1. IMDB does not seem to have a free consistant API. Hence the approach was to parse response of IMDB web search link.  
 2. MVC redirection strategy to be done. 
 3. Cache enablement for better performance results. 
