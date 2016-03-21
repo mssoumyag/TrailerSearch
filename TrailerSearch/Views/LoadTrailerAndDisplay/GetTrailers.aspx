@@ -8,7 +8,7 @@
     <title>GetTrailers</title>
     <script type ="text/javascript">
         function ValidateForm() {
-            var x = document.forms["displayTrailers"]["Moviename"].value;
+            var x = document.forms["displayTrailers"]["movieName"].value;
             if (x == null || x == "") {
                 alert("Please enter a movie name to search!");
                 return false;
